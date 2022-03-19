@@ -13,9 +13,33 @@
 </head>
 <body>
     
-    <main class="t">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio architecto perferendis laborum repellat. Ea assumenda quos mollitia expedita, officiis quae, corrupti accusantium aspernatur eum consequuntur nostrum, neque qui repellat culpa.</main>
-    <header class="p"><img src="" alt="to jet obrazek"></header>
-    <side class="v"><iframe src="" alt="to jest materiał video"></iframe></side>
+    <main class="t"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio architecto perferendis laborum repellat. Ea assumenda quos mollitia expedita, officiis quae, corrupti accusantium aspernatur eum consequuntur nostrum, neque qui repellat culpa.</p></main>
+    <header class="p">
+        <picture>
+            <source
+            srcset="./images/1920w.jpg"
+            media="(min-width: 1200px)"
+            >
+            <source
+            srcset="./images/1200w.jpg"
+            media="(min-width: 600px)"
+            >
+            <source
+            srcset="./images/600w.jpg"
+            >
 
+            <img src="" alt="">
+        </picture>
+    </header>
+    <side class="v">
+        <iframe 
+            src="https://www.youtube.com/embed/3N-6OZBrDoI" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+        >
+        </iframe>
+    </side>
 </body>
 </html>

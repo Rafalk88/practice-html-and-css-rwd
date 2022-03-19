@@ -1,0 +1,39 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "p"
+        "t"
+        "v";
+}
+
+.p {
+    grid-area: p;
+}
+
+.t {
+    grid-area: t;
+}
+
+.v {
+    grid-area: v;
+    height: 0px;
+    padding-bottom: calc(315 / 560 * 100%);
+    position: relative;
+    width: 100%;
+}
+
+iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+picture > img {
+    max-width: 100%;
+}
+
+.t > p {
+    column-count: 1;
+}
