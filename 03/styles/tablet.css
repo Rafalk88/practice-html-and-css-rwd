@@ -3,9 +3,11 @@ body {
     grid-template-areas:
         "p t"
         "v t";
+    grid-template-rows:
+        50vh
+        50vh;
 }
 
 .p, .v {
     min-height: 200px;
-    max-height: 50vh;
 }

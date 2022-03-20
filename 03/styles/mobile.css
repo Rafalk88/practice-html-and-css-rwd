@@ -1,4 +1,5 @@
 body {
+    overflow-x: hidden;
     display: grid;
     grid-template-areas:
         "p"
@@ -16,24 +17,29 @@ body {
 
 .v {
     grid-area: v;
-    height: 0px;
     padding-bottom: calc(315 / 560 * 100%);
     position: relative;
     width: 100%;
 }
 
-iframe {
+picture {
+    height: 100%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.t > p {
+    column-count: 1;
+}
+
+.vid {
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
-}
-
-picture > img {
-    max-width: 100%;
-}
-
-.t > p {
-    column-count: 1;
 }
