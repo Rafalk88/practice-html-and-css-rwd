@@ -1,0 +1,40 @@
+.container {
+    max-width: 1000px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header__nav {
+    min-width: 700px;
+    height: 50px;
+}
+
+.content__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.content__article {
+    min-height: 400px;
+    width: 49.5%;
+}
+
+.content__ads {
+    min-height: 400px;
+    width: 49.5%;
+}
+
+.content__container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content__article2 {
+    min-height: 400px;
+    width: 30%;
+}

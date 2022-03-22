@@ -1,0 +1,44 @@
+.row, .cell, .container {
+    margin: 5px;
+    padding: 5px;
+    outline: 2px solid;
+}
+
+.row {
+    outline-color: green;
+}
+
+.cell {
+    min-height: 50px;
+    outline-color: orange;
+    background-color: orange;
+}
+
+.container {
+    margin: 0 auto;
+    outline-color: blue;
+}
+
+.header__logo {
+    min-width: 200px;
+    height: 50px;
+}
+
+.content__article,
+.content__ads {
+    min-height: 30vh;
+}
+
+.content__article2 {
+    min-height: 20vh;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+    min-height: 50px;
+}
+
+.footer__copyrights {
+    width: 150px;
+}
