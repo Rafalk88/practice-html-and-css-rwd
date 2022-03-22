@@ -2,17 +2,6 @@
     max-width: 1000px;
 }
 
-.header__container {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.header__nav {
-    min-width: 700px;
-    height: 50px;
-}
-
 .content__container {
     display: flex;
     align-items: flex-start;
@@ -37,4 +26,23 @@
 .content__article2 {
     min-height: 400px;
     width: 30%;
+}
+
+label {
+    display: none;
+}
+
+.header__nav {
+    display: block;
+    min-width: 700px;
+}
+
+.header__logo {
+    min-width: 200px;
+    height: 50px;
+    margin-left: 0;
+}
+
+.header__container {
+    flex-wrap: nowrap;
 }
